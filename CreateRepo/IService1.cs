@@ -21,6 +21,10 @@ namespace CreateRepo
 
         [OperationContract]
         string GetAmount(int amount);
+
+        [OperationContract]
+        string GetEmployeeID(int id);
+
         // TODO: Add your service operations here
     }
     
